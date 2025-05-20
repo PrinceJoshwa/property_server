@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000
 app.use(cors({
   origin: [
     process.env.CLIENT_URL,
-    'https://property-client-six.vercel.app/',
+    'https://property-client-six.vercel.app',
     'http://localhost:5173'
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
